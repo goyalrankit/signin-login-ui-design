@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
 import Lottie from 'react-lottie'
-import animationData from './Animation/dev.json.json';
+import animationData from './../Animation/dev.json.json';
 
 class AnimationPage extends Component {
-
-
   render(){
-
     const defaultOptions = {
       loop: true,
       autoplay: true,
@@ -15,7 +12,6 @@ class AnimationPage extends Component {
         preserveAspectRatio: 'xMidYMid slice'
       }
     };
-
     return(
       <div>
         <Lottie options={defaultOptions}
