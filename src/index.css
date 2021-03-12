@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.signin-div
+{
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 60%;
+  top: 15%;
+  position: absolute;
+  box-shadow:20px 20px 50px 15px grey;  
+  left: 20%;
+}
+
+.form-part
+{
+  display: flex;
+  width: 70%;
+
+}
+
+.form
+{
+  border-radius: 20px;
+  background-color: beige;
+  width: 100%;
+  margin: 5px;
+}
+
+input 
+{
+  overflow: hidden;
+  width: 60%;
+  display: flex;
+  top: 10px;
+  margin: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+}
+
+.image
+{
+  display: block;
+  width:10%;
+  margin: 2%;
+}
+
+.signin-button
+{
+    --c: goldenrod;
+  color: #000;
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 2em;
+  position: relative;
+  overflow: hidden;
+  margin: 1em;
+  left: 120px;
+}
+
+ small
+{
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 2em;
+  position: relative;
+  overflow: hidden;
+  left: 60px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+small span
+{
+  background-color: #000;
+  color:beige ;
+  padding: 5px;
+  font-size: medium;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
