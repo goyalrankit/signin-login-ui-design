@@ -74,7 +74,7 @@ input
   left: 120px;
 }
 
- small
+small
 {
   font-weight: bold;
   font-family: sans-serif;
@@ -83,9 +83,10 @@ input
   line-height: 2em;
   position: relative;
   overflow: hidden;
-  left: 60px;
+  left: 80px;
   margin-top: 0px;
   margin-bottom: 5px;
+  
 }
 
 small span
@@ -93,8 +94,33 @@ small span
   background-color: #000;
   color:beige ;
   padding: 5px;
-  font-size: medium;
+  font-size: smaller;
   border-radius: 5px;
   text-transform: uppercase;
   margin-bottom: 5px;
+}
+
+
+.forget-small
+{
+  font-weight: smaller;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  position: relative;
+  overflow: hidden;
+  left: 45px;
+  margin-top: -5px;
+  margin-bottom: 2px;
+  color:red; 
+}
+
+.forget-small span
+{
+  background-color: #000111;
+  color:red;
+  padding: 5px;
+  font-size: smaller;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
 }
